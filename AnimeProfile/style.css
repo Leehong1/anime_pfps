@@ -186,7 +186,9 @@ nav ul .nav-item .nav-link:hover {
 }
 
 .anime-pictures {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     transition: .3s;
 }
 
