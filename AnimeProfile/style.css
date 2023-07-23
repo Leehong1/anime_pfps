@@ -333,3 +333,19 @@ nav ul .nav-item .nav-link:hover {
     margin-bottom: 4px;
     text-align: left;
 }
+
+@media (max-width: 779px) {
+    .container {
+        width: 100%;
+        padding: 0 10%;
+    }
+    .hero-banner {
+        flex-direction: row;
+    }
+}
+@media (max-width: 487px) {
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
